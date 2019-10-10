@@ -1,6 +1,12 @@
 $color-primary: #777;
 $color-secondary: #616161;
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
 body {
     background-color: pink;
 }
