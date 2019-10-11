@@ -1,2 +1,181 @@
-body {
-  background-color: pink; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-family: "Lato", sans-serif;
+  color: #777;
+  line-height: 1.8;
+  font-size: 62.5%; }
+
+p,
+li,
+a {
+  font-size: 1.5rem; }
+
+h2 {
+  letter-spacing: 10px;
+  font-size: 3.6rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400; }
+
+h3 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center; }
+
+.container {
+  padding: 6.4rem 1.6rem;
+  max-width: 98rem;
+  margin: 0 auto; }
+
+header {
+  position: relative;
+  height: 100vh;
+  background-image: url("/media/parallax1.jpg");
+  opacity: .75;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.navbar {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between; }
+  .navbar__list {
+    display: flex; }
+    .navbar__list-item {
+      list-style: none;
+      text-transform: uppercase; }
+      .navbar__list-item:not(:last-child) {
+        margin-right: 2rem; }
+      .navbar__list-item a {
+        text-decoration: none;
+        color: #616161; }
+      .navbar__list-item i {
+        margin-right: .1rem; }
+  .navbar i {
+    color: #616161; }
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: .5rem 1.5rem;
+  background-color: black;
+  color: white;
+  letter-spacing: 10px;
+  font-size: 2.4rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center; }
+  .logo span {
+    display: none; }
+
+.love {
+  font-style: italic;
+  text-align: center; }
+
+.about {
+  display: grid;
+  grid-row-gap: 2rem;
+  grid-template-columns: 1fr; }
+  .about .name {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .about .name i {
+      margin-right: 1rem; }
+  .about .paragraph-2 {
+    display: none; }
+  .about .avatar_hat {
+    width: 90%;
+    margin: 2rem auto;
+    opacity: .6; }
+  .about .good-at {
+    font-size: 1.8rem;
+    text-align: center; }
+  .about .progress {
+    display: flex;
+    flex-direction: column; }
+    .about .progress__label {
+      letter-spacing: 10px; }
+    .about .progress__bar-container {
+      background-color: rgba(0, 0, 0, 0.1);
+      position: relative;
+      height: 3rem;
+      margin: 1.5rem 0; }
+      .about .progress__bar-container .progress__bar {
+        background-color: #616161;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.5rem; }
+        .about .progress__bar-container .progress__bar--1 {
+          width: 90%; }
+        .about .progress__bar-container .progress__bar--2 {
+          width: 85%; }
+        .about .progress__bar-container .progress__bar--3 {
+          width: 75%; }
+
+.stats {
+  background-color: #616161;
+  color: white;
+  padding: 2rem 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .stats__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0; }
+    .stats__item-num {
+      font-size: 2.4rem; }
+    .stats__item-title {
+      font-size: 1.5rem; }
+
+.portfolio__parallax {
+  min-height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/media/parallax2.jpg");
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .7; }
+
+.my-work {
+  text-align: center; }
+  .my-work h3 {
+    margin-bottom: 2rem; }
+  .my-work p {
+    font-style: italic; }
+
+.portfolio__gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 2rem;
+  margin-top: 4rem; }
+  .portfolio__gallery--img {
+    width: 95%;
+    margin: 0 auto; }
+
+.load-more {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 5rem auto;
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
+  border: none;
+  text-transform: uppercase; }

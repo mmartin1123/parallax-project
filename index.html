@@ -25,37 +25,43 @@
 
     <section class="about container">
         <h3>About Me</h3>
-        <p class="italic">I love photography</p>
+        <p class="love">I love photography</p>
         <p class="paragraph-1">We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <div class="name">
                 <i class="fas fa-user"></i>
-                <h3>My Name</h3>
+                <p>My Name</p>
         </div>
-        <img src="/media/avatar_hat.jpg" alt="avater hat">
+        <img src="/media/avatar_hat.jpg" alt="avater hat" class=avatar_hat>
         <p class="paragraph-2">Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <p>Im really good at</p>
+        <p class="good-at">Im really good at:</p>
         <div class="progress">
             <p class="progress__label"><i class="fas fa-camera"></i>Photography</p>
-            <p class="progress__bar">90%</p>
-            <p class="progress__label"><i class="fas fa-desktop"></i>Photography</p>
-            <p class="progress__bar">85%</p>
-            <p class="progress__label"><i class="fas fa-image"></i>Photography</p>
-            <p class="progress__bar">75%</p>
+            <div class="progress__bar-container">
+                <div class="progress__bar progress__bar--1">90%</div>
+            </div>
+            <p class="progress__label"><i class="fas fa-desktop"></i>Web Design</p>
+            <div class="progress__bar-container">
+                <div class="progress__bar progress__bar--2">85%</div>
+            </div>
+            <p class="progress__label"><i class="fas fa-image"></i>Photoshop</p>
+            <div class="progress__bar-container">
+                <div class="progress__bar progress__bar--3">75%</div>
+            </div>
         </div>
     </section>
 
     <section class="stats">
         <div class="stats__item">
-            <p>14+</p>
-            <p>Partners</p>
+            <p class="stats__item-num">14+</p>
+            <p class="stats__item-title">Partners</p>
         </div>
         <div class="stats__item">
-            <p>55+</p>
-            <p>Projects Done</p>
+            <p class="stats__item-num">55+</p>
+            <p class="stats__item-title">Projects Done</p>
         </div>
         <div class="stats__item">
-            <p>89+</p>
-            <p>Happy Clients</p>
+            <p class="stats__item-num">89+</p>
+            <p class="stats__item-title">Happy Clients</p>
         </div>
         <div class="stats__item">
             <p>150+</p>
@@ -68,18 +74,18 @@
             <h2>Portfolio</h2>
         </div>
         <div class="my-work container">
-            <h2>My Work</h2>
+            <h3>My Work</h2>
             <p>Here are some of my latest lorem work ipsum tipsum.</p>
             <p>Click on the images to make them bigger</p>
             <div class="portfolio__gallery">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <img class="portfolio__gallery--img" src="media/p1.jpg" alt="image">
+                <img class="portfolio__gallery--img" src="media/p2.jpg" alt="image">
+                <img class="portfolio__gallery--img" src="media/p3.jpg" alt="image">
+                <img class="portfolio__gallery--img" src="media/p4.jpg" alt="image">
+                <img class="portfolio__gallery--img" src="media/p5.jpg" alt="image">
+                <img class="portfolio__gallery--img" src="media/p6.jpg" alt="image">
+                <img class="portfolio__gallery--img" src="media/p7.jpg" alt="image">
+                <img class="portfolio__gallery--img" src="media/p8.jpg" alt="image">
             </div>
             <button class="load-more">Load More</button>
         </div>
