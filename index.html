@@ -64,8 +64,8 @@
             <p class="stats__item-title">Happy Clients</p>
         </div>
         <div class="stats__item">
-            <p>150+</p>
-            <p>Meetings</p>
+            <p class="stats__item-num">150+</p>
+            <p class="stats__item-title">Meetings</p>
         </div>
     </section>
 
@@ -91,14 +91,15 @@
         </div>
     </section>
 
-    <section class="contact">
-        <div class="contact__parallax">
-            <h2>Contact</h2>
-        </div>
-        <h3>Where I Work</h3>
-        <p>I'd love your feedback!</p>
+
+    <div class="contact__parallax">
+        <h2>Contact</h2>
+    </div>
+    <section class="contact container">
+        <h3 class="feedback">Where I Work</h3>
+        <p class="feedback">I'd love your feedback!</p>
         <div class="form-info">
-            <img src="" alt="">
+            <img class="form-info__map" src="/media/map.jpg" alt="map">
             <div class="contact-info">
                     <i class="fas fa-map-marker-alt"></i>
                     <p>Chicago, US</p>
@@ -106,17 +107,18 @@
                     <p>Phone: +00 151515</p>
                     <i class="fas fa-envelope"></i>
                     <p>Email: mail@mail.com</p>
-                    <p class="note">Swing by for a cup of <i class="fas fa-coffee"></i>, or leave me a note:</p>
             </div>
+            <p class="note">Swing by for a cup of <i class="fas fa-coffee"></i>, or leave me a note:</p>
             <form action="post" class="form">
                 <input type="text" placeholder="Name">
                 <input type="text" placeholder="Email">
                 <input type="text" placeholder="Message">
+                <button type="submit"><i class="fas fa-paper-plane"></i>send message</button>
             </form>
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <button><i class="fas fa-arrow-up"></i>To the top</button>
         <div class="media">
             <i class="fab fa-facebook"></i>
@@ -126,7 +128,7 @@
             <i class="fab fa-twitter"></i>
             <i class="fab fa-linkedin"></i>
         </div>
-        <p>Powered by w3.css</p>
+        <p>Powered by <a href="#">w3.css</a></p>
     </footer>
 </body>
 </html>
